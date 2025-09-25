@@ -37,6 +37,7 @@ app.listen(PORT, () => {
 //     console.log("Failed to sync db: " + err.message);
 //   });
 
+// Just for check
 db.sequelize
   .sync({ alter: true })
   .then(() => {
